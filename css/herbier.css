@@ -1,0 +1,181 @@
+@font-face {
+
+	font-family: "Marker";
+	src: url(../fonts/Permanent_Marker/PermanentMarker-Regular.ttf);
+}
+
+body {
+	margin: 0px; /*pour éviter les bandes blanches*/
+}
+
+/*IMAGE DE FOND*/
+.ecorce {
+	width: 100vw;
+	height: 100vh; 
+	background-image: url(../img/ecorce1.jpg); 
+	background-repeat: no-repeat; 
+	background-size: 110% 110%;  
+	background-position: center;		
+}
+
+/*TITRE*/
+h1 {
+	position: absolute;
+	right: 8%;
+	color: #FDFFD9;
+	font-size: 5em;
+	font-style: "Marker";
+}
+
+/*BOUTONS*/
+.regles {
+	background-color: #FDFFD9;
+	width: 7%;
+	height: 6%;
+	border-radius: 3%;
+	position: absolute;
+	top: 24%;
+	right: 10%;
+	text-align: center;
+	font-size: 1.8em;
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+.regles:hover {
+	background-color: #FFD151;
+}
+
+.jouer {
+	background-color: #FDFFD9;
+	width: 7%;
+	height: 6%;
+	border-radius: 3%;
+	position: absolute;
+	top: 24%;
+	right: 21%;
+	text-align: center;
+	font-size: 1.8em;
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+.jouer:hover {
+	background-color: #FFD151;
+}
+
+/*PANNEAU DES REGLES DU JEU*/
+.rules2 {
+	display: none; /*pour que les règles soient cachées*/
+	background-color: #FDFFD9;
+	opacity: 0.9;
+	width: 20%;
+	height: 49%;
+	border-radius: 3%;
+	position: absolute;
+	top: 38%;
+	right: 7.2%; 
+	padding-top: 3.1%;
+	padding-left: 2%;
+	padding-right: 1%;
+}
+
+.jump {
+	position: absolute;
+	top: 38.1%;
+	right: 19.3%;
+	height: 15%;
+	width: 10%;
+	background-image: url(../img/lutinSautant.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transform: rotate(-10deg); /*Permet de bouger en diagonale*/
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	transform:  rotate(-16deg);
+	margin-bottom: 13%;
+}
+
+.p {
+	padding-left: 3px;
+}
+
+/*CARTES*/
+.cartes {
+	width: 150px;
+	height: 150px;
+	background-image: url(../img/lutin.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100%;
+	border-radius: 3%;
+	position: absolute;
+	cursor: pointer;
+}
+
+/*RANGEE 1*/
+.carte1 {
+	top: 9%;
+	left: 51%;	
+}
+
+.carte2 {
+	top: 9%;
+	left: 36%;
+}
+
+.carte3 {
+	top: 9%;
+	left: 21%;
+}
+
+.carte4 {
+	top: 9%;
+	left: 6%;
+}
+
+/*RANGEE 2*/
+.carte5 {
+	top: 40%;
+	left: 6%;
+}
+
+.carte6 {
+	top: 40%;
+	left: 21%;
+}
+
+.carte7 {
+	top: 40%;
+	left: 36%;
+}
+
+.carte8 {
+	top: 40%;
+	left: 51%;
+}
+
+/*RANGEE 3*/
+.carte9 {
+	top: 70%;
+	left: 6%;
+}
+
+.carte10 {
+	top: 70%;
+	left: 21%;
+}
+
+.carte11 {
+	top: 70%;
+	left: 36%
+}
+
+.carte12 {
+	top: 70%;
+	left: 51%;
+}
